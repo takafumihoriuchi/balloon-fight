@@ -38,11 +38,16 @@ while True:
             if event.key == K_ESCAPE:
                 sys.exit()
 
+
 """
-一般的なゲームループの構造
-    while True:
-        ゲームオブジェクトの更新
-        ゲームオブジェクトのレンダリング（描画）
-        画面の更新
-        イベント処理
+references
+
+
+~structure of game-loops~
+
+while True:
+    update game objects
+    render game objects
+    update screen
+    process events
 """
